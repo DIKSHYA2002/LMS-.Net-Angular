@@ -1,0 +1,19 @@
+.mat-toolbar.mat-primary.mat-toolbar-single-row{
+    background-color: rgb(53, 101, 197);
+    color: white;
+}
+mat-toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .user-info{
+        display: flex;
+        gap: 2rem;
+    }
+    .user-name{
+        display: flex;
+        align-items: center;
+    }
+   
+}
+

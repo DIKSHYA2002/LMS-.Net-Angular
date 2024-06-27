@@ -1,0 +1,25 @@
+mat-card{
+    margin: 1rem;
+    mat-card-content {
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        
+    }
+}
+mat-nav-list{
+   
+    a{
+        border-radius: 0rem;
+        margin: 0.5rem;
+        font-weight: 900;
+      
+    }
+    a.active-link{
+               background-color: rgb(252, 252, 255);
+               color: white;
+    }
+
+}
